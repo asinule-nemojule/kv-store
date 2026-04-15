@@ -55,17 +55,17 @@ Protocol                         Raw TCP
 
 ## Project Structure
 
-kv-store/
-├── src/
-│   ├── server.cpp
-│   ├── store.cpp
-│   ├── store.h
-│   ├── thread_pool.cpp
-│   └── thread_pool.h
-├── Makefile
-├── Dockerfile
-├── .dockerignore
-└── README.md
+kv-store/ 
+├── src/ 
+│   ├── server.cpp 
+│   ├── store.cpp 
+│   ├── store.h 
+│   ├── thread_pool.cpp 
+│   └── thread_pool.h 
+├── Makefile 
+├── Dockerfile 
+├── .dockerignore 
+└── README.md 
 
 Author
 Vukasin Nikolic
