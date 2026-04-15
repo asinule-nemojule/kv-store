@@ -54,7 +54,7 @@ Protocol                         Raw TCP
 
 
 ## Project Structure
-```
+`
 kv-store/ 
 ├── src/ 
 │   ├── server.cpp 
@@ -65,7 +65,7 @@ kv-store/
 ├── Makefile 
 ├── Dockerfile 
 ├── .dockerignore 
-└── README.md 
+└── README.md `
 
 Author
 Vukasin Nikolic
