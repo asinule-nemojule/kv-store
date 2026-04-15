@@ -21,30 +21,29 @@ A multi-threaded, in-memory key-value store server built in C++17. Supports conc
 
 ### Native (Linux/WSL)
 
-```bash
-make
-./kv_server
+`make`
+`./kv_server`
 
 ## DOCKER
 
-docker build -t kv-store .
-docker run -p 8080:8080 kv-store
+`docker build -t kv-store .`
+`docker run -p 8080:8080 kv-store`
 
 ## Testing
 
 Open another terminal and use telnet or netcat: 
 
-telnet localhost 8080
+`telnet localhost 8080`
 
 Commands:
-SET name Vukasin
+`SET name Vukasin
 OK
 GET name
 Vukasin
 COUNT
 1
 DELETE name
-DELETED
+DELETED`
 
 ## Benchmarking results
 
